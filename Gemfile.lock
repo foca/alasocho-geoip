@@ -4,12 +4,18 @@ GEM
     activesupport (3.0.3)
     geoip (0.8.8)
     i18n (0.5.0)
+    kgio (2.6.0)
     newrelic_rpm (2.13.4)
     rack (1.2.1)
+    raindrops (0.7.0)
     sinatra (1.1.2)
       rack (~> 1.1)
       tilt (~> 1.2)
     tilt (1.2.1)
+    unicorn (4.1.1)
+      kgio (~> 2.4)
+      rack
+      raindrops (~> 0.6)
 
 PLATFORMS
   ruby
@@ -20,3 +26,4 @@ DEPENDENCIES
   i18n
   newrelic_rpm
   sinatra
+  unicorn
